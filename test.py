@@ -1,5 +1,8 @@
 # This is a sample Python script demonstrating file manipulation functions
 
+# def qc(filename):
+#   return None
+
 def read_file(filename):
     """
     Read content from a file.
