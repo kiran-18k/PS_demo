@@ -1,9 +1,5 @@
 # This is a sample Python script demonstrating file manipulation functions
 
-
-# QC_CODE FOR MATT
-
-
 def read_file(filename):
     """
     Read content from a file.
@@ -37,8 +33,8 @@ def main():
     write_file(filename, content)
     
     # Reading content from the file
-    ##file_content = read_file(filename)
-    #print("Content read from file:", file_content)
+    file_content = read_file(filename)
+    print("Content read from file:", file_content)
 
 if __name__ == "__main__":
     main()
